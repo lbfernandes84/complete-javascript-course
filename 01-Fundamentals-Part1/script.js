@@ -1,6 +1,9 @@
-let firstName = 'James Bond';
-let alias = '007';
-console.log(firstName, '-', alias);
-let val$ue = "test";//This is ok
-console.log(val$ue);
-console.log(inexistentVar);
+let logicalName = true;
+console.log(logicalName);
+console.log(typeof logicalName);
+console.log(typeof 10);
+console.log(typeof "James");
+let notAssignedVariable;
+console.log(typeof notAssignedVariable);
+notAssignedVariable = 'assigned';
+console.log(typeof notAssignedVariable);

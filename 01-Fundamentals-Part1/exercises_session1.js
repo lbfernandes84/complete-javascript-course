@@ -1,6 +1,10 @@
 let country = "Brazil";
 let continent = "South America";
 let population = 250;
+let isIsland = false;
+let language;
 console.log("Country: ", country);
 console.log("Continent: ", continent);
 console.log("Population: ", population, "M");
+console.log("Is an island: ", typeof isIsland);
+console.log("language: ", language);
