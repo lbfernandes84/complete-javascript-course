@@ -1,5 +1,6 @@
-let js = 'amazing';
-if (js === 'amazing') {
-    alert('Javascript is amazig');
-}
-console.log(40 + 8 + 23 + 10);
+let firstName = 'James Bond';
+let alias = '007';
+console.log(firstName, '-', alias);
+let val$ue = "test";//This is ok
+console.log(val$ue);
+console.log(inexistentVar);
