@@ -10,3 +10,7 @@ const currentYear = 2022;
 
 const lucas = `Oi, meu nome é ${nome}, tenho ${currentYear - birthYear} anos, sou ${job}`;
 console.log(lucas);
+
+//Nova forma de quebrar linha
+console.log(`Essa é uma linha
+Essa é outra`)
