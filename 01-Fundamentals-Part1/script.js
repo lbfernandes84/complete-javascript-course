@@ -1,19 +1,12 @@
 // const value = 5;
 // value = 3;
 
-let notConstValue = 'value1';
-console.log(notConstValue);
-notConstValue = 'value2';
-console.log(notConstValue);
+//Template literals
 
-{
-    var test = 1;
-    let testlet = 2;
-}
-console.log(test);
+const nome = "Lucas"
+const birthYear = 1984;
+const job = "software developer";
+const currentYear = 2022;
 
-let x = 3;
-let y = 2;
-console.log('X:', x, 'Y:', y);
-x, y = y, x;
-console.log('X:', x, 'Y:', y);
+const lucas = `Oi, meu nome é ${nome}, tenho ${currentYear - birthYear} anos, sou ${job}`;
+console.log(lucas);

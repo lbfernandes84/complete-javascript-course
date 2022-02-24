@@ -1,4 +1,4 @@
-const markMass = 150;
+const markMass = 92;
 const johnMass = 85;
 
 const markHeigh = 1.95;
@@ -12,5 +12,8 @@ console.log("Jonh mass:", johnMass);
 console.log("----------------------");
 console.log("Mark height:", markHeigh);
 console.log("Jonh height:", johnHeigh);
+console.log("----------------------");
+console.log("Mark BMI:", markBMI);
+console.log("Jonh BMI:", johnBMI);
 console.log("----------------------");
 console.log("Is Mark's BMI greater than John's BMI:", markBMIIsHigherThanJohnBMI ? "yes" : "no");
